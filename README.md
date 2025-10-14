@@ -1,10 +1,8 @@
-# sbf_distances_2021
+# sbf_distances_2025
 This repository contains two tables containing SBF distances as published in Jensen et al. 2021 and 2025. The original data are from HST WFC3/IR F110W.
 
 The first file is ApJS_255_21_SBFdistances2021. It contains the published values used by Jensen et al. 2021 in ApJS 255:21, https://ui.adsabs.harvard.edu/abs/2021ApJS..255...21J. 
-The SBF targets were drawn from a mix of elliptical galaxies from the MASSIVE survey (PI Chung-Pei Ma) and Type Ia supernova hosts (PI Peter Milne). 
-The SBF distances in the 2021 paper were computed using a zero point based on Cepheid variable star distances to the Virgo and Fornax clusters. The color correction for the SBF absolute magnitudes were determined using PanSTARRS (g-z) colors calibrated to the ACS (F475W-F850LP) system from Jensen et al. 2015. 
+The SBF targets were drawn from a mix of elliptical galaxies from the MASSIVE survey (PI Chung-Pei Ma) and Type Ia supernova hosts (PI Peter Milne). The SBF distances in the 2021 paper were computed using a SBF calibration zero point based on Cepheid variable star distances to the Virgo and Fornax clusters. The color correction for the SBF absolute magnitudes were determined using PanSTARRS (g-z) colors calibrated to the ACS (F475W-F850LP) system from Jensen et al. 2015 as described in the 2021 paper. 
 
-The second file is ApJ___SBFdistances2025. The new SBF distances were based on the original SBF apparent magnitudes from the 2021 paper with two important changes: 1) the distance scale zero point was changed to the TRGB ...  2) the PanSTARRS colors were re-measured using matching annuli to the SBF measurement. 
-The first change resulted in an offset of...
-The second change affected individual galaxies differently, but had a net effect of ...
+The second file is ApJ_987_87_SBFdistances2025, Jensen et al. 2025, ApJ, 987, 87, https://doi.org/10.3847/1538-4357/addfd6 .
+The new SBF distances in the 2025 paper were based on the original SBF apparent magnitudes from the 2021 paper with two important changes: 1) the distance scale zero point was changed to a new zero point derived from TRGB distances to nearby elliptical galaxies mostly in Fornax and Virgo, calibrated in turn using the geometrical maser distance to NGC 4258 (Anand et al. 2024 and Anand et al. 2025); and 2) the PanSTARRS (g-z) colors were re-measured using annuli matching the SBF measurements. Details can be found in the Jensen et al. 2025 paper. The updated color measurements affected individual galaxy distances differently, but had a net effect that partially offsets the change in the zero point. The new SBF calibration (both zero point and slope) results in an insignificant change in the measured value of H0, but individual galaxy distances shift by varying amounts. The second file reproduces the 2021 distance moduli and shows the new distances. For more details, please see Jensen et al. 2025 at the link above.
