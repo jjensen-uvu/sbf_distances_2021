@@ -4,7 +4,7 @@ This repository includes two tables containing SBF distances and associated quan
 
 The first file is ApJS_255_21_SBFdistances2021. It contains the published values used by Jensen et al. 2021 in ApJS 255:21, https://iopscience.iop.org/article/10.3847/1538-4365/ac01e7. The SBF targets were drawn from a total of six different HST programs, and are primarily a mix of elliptical galaxies from the MASSIVE survey (C-P Ma et al. 2014) and Type Ia supernova hosts (HST program PI Peter Milne). The SBF distances in the 2021 paper were computed using an SBF calibration zero point tied to large samples of ground-based SBF distances in the Virgo and Fornax clusters. The ground-based SBF distances themselves were directly calibrated through six individual galaxies that had  Cepheid distances; because Cepheid host galaxies avoid cluster cores, the calibration does not assume any Cepheid-based mean distances to these clusters – see Sec 2.4 of Blakeslee et al. 2021, 911, 65 (https://iopscience.iop.org/article/10.3847/1538-4357/abe86a) for further details and references.
 
-The color corrections used to derive the SBF absolute magnitudes were determined using PanSTARRS (g-z) colors calibrated to the ACS (F475W-F850LP) system from Jensen et al. 2015 as described in the Jensen et al. 2021 paper. **For important details about the velocities reproduced in this file, please see the note below.**
+The color corrections used to derive the SBF absolute magnitudes were determined using PanSTARRS (g-z) colors calibrated to the ACS (F475W-F850LP) system from Jensen et al. 2015 as described in the Jensen et al. 2021 paper. **For important details about the velocities reproduced in these files, please see the note below.**
 
 ###
 
